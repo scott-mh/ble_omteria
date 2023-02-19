@@ -63,6 +63,9 @@ packages/modules/Bluetooth/system/stack/btm/btm_ble.cc:1720 btm_ble_connected: U
 2023-02-19 18:04:48.310  3298-3298  DEBUG                   pid-3298                             A        #12 pc 0000000000054b50  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 3bb3bed8953efcf72e0c16e90a83355e)
 2023-02-19 18:04:48.408   244-244   tombstoned              pid-244                              E  Tombstone written to: tombstone_07
 2023-02-19 18:04:48.430   479-543   NativeTombstoneManager  pid-479                              E  Tombstone's UID (1002) not an app, ignoring
+
+
+
 2023-02-19 18:04:48.445   479-543   BootReceiver            pid-479                              I  Copying /data/tombstones/tombstone_07 to DropBox (SYSTEM_TOMBSTONE)
 2023-02-19 18:04:48.447   479-543   DropBoxManagerService   pid-479                              I  add tag=SYSTEM_TOMBSTONE isTagEnabled=true flags=0x6
 2023-02-19 18:04:48.454   479-3302  DropBoxManagerService   pid-479                              I  add tag=system_app_native_crash isTagEnabled=true flags=0x2
