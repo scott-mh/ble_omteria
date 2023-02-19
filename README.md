@@ -24,6 +24,8 @@ packages/modules/Bluetooth/system/stack/btm/btm_ble.cc:1720 btm_ble_connected: U
 2023-02-19 18:04:48.183  3298-3298  crash_dump64            pid-3298                             I  type=1400 audit(0.0:1340): avc: denied { map } for path="/data/user_de/0/com.android.bluetooth/databases/bluetooth_db-shm" dev="mmcblk0p16" ino=311770 scontext=u:r:crash_dump:s0 tcontext=u:object_r:bluetooth_data_file:s0 tclass=file permissive=1
 2023-02-19 18:04:48.214  3298-3298  crash_dump64            pid-3298                             I  type=1400 audit(0.0:1341): avc: denied { read } for name="data@resource-cache@com.android.systemui-accent-o8xL.frro@idmap" dev="mmcblk0p16" ino=139281 scontext=u:r:crash_dump:s0 tcontext=u:object_r:resourcecache_data_file:s0 tclass=file permissive=1
 2023-02-19 18:04:48.214  3298-3298  crash_dump64            pid-3298                             I  type=1400 audit(0.0:1342): avc: denied { open } for path="/data/resource-cache/data@resource-cache@com.android.systemui-accent-o8xL.frro@idmap" dev="mmcblk0p16" ino=139281 scontext=u:r:crash_dump:s0 tcontext=u:object_r:resourcecache_data_file:s0 tclass=file permissive=1
+
+
 2023-02-19 18:04:48.309  3298-3298  DEBUG                   pid-3298                             A  *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
 2023-02-19 18:04:48.309  3298-3298  DEBUG                   pid-3298                             A  Build fingerprint: 'emteria/rpi4/rpi4:13/TP1A.220624.021.A1/eng.root.20230209.120150:user/release-keys'
 2023-02-19 18:04:48.309  3298-3298  DEBUG                   pid-3298                             A  Revision: '0'
