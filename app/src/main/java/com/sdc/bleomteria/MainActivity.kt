@@ -74,7 +74,10 @@ class MainActivity : ComponentActivity() {
                 isConnecting = true
                 updateMessages("onScanResult device: ${scanResult.device.name}")
                 stopScan()
-                scanResult.device.connectGatt(application, false, gattCallback)
+                //runOnUiThread {
+                // runOnUithread did not fix the issue
+                    scanResult.device.connectGatt(application, false, gattCallback)
+                //}
             }
         }
         override fun onScanFailed(errorCode: Int) {
